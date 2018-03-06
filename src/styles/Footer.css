@@ -1,0 +1,14 @@
+.beritafooter  {
+    padding: 10px 50px 50px 50px;
+    text-indent: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.foot > description {
+    text-align: justify;
+}

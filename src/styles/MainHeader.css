@@ -1,0 +1,11 @@
+.carousel {
+    margin-top: 20px;
+}
+.carousel-inner > .item > img {
+    width:1500px;
+    height:650px;
+}
+
+.carousel-indicators > li {
+    padding: 0px 10px;
+}

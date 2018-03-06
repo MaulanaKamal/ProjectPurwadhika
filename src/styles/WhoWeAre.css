@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+.container {
+    height: 100%;
+}
+.whoweare {
+   text-align: center;
+   margin: 100px 0px 20px 0px;    
+}
+
+.whowearehover {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: lighter;
+}
+
+.whowearehover::after {
+    content: "";
+    display: block;
+    width: 0;
+    margin-bottom: 50px;
+    height: 2px;
+    background-color: red;
+    transition: width .3s;
+}
+
+.whowearehover:hover::after {
+    
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.card {
+    background-color: rgba(254,154,118,0.7);
+}
+
+#media {
+    display: flex;
+    justify-content: center;
+}
+
+#media > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logososmed {
+    list-style: none;
+    margin: 5px 10px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 10px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.logososmed:hover {
+    color: red;
+    border: 1px solid red;
+    transition: .1s;
+    border-radius: 50%;
+}

@@ -1,0 +1,133 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js');
+
+
+.container .search{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.indonesiahighlights {
+    text-align: center;
+    margin: 40px 0px 20px 0px;    
+ }
+ 
+.indonesiahighlightshover {
+     text-decoration: none;
+     font-size: 30px;
+     font-family: 'Cabin Sketch', cursive;
+     font-weight: lighter;
+ }
+ 
+.indonesiahighlightshover::after {
+     content: "";
+     display: block;
+     width: 0;
+     height: 2px;
+     background-color: red;
+     transition: width .3s;
+ }
+ 
+.indonesiahighlightshover:hover::after {
+     width: 100%;
+     transition: width .3s;
+ }
+
+
+.welcome-single-slide {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;    
+}
+
+
+.col-md-3{
+    padding: 10px 5px;
+}
+
+.konten {
+    margin: 0px;;
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+.konten div {
+    flex: auto;
+    width: 350px;
+    margin: 5px;
+}
+
+.konten div img {
+    width: 450px;
+    height: 400px;;
+}
+
+
+@media screen and (min-width: 375px) {
+    .konten {
+       padding: 0; 
+    }
+    .konten div {
+        margin: 0;
+    }
+}
+
+
+.welcome-single-slide .project_title > p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.welcome-single-slide .project_title {
+    position: absolute;
+    content: "";
+    bottom: -300px;
+    left: 0;
+    z-index: 3;
+    background: rgba(254,154,118,0.7);
+    padding: 30px 40px;
+    width: 100%;
+    height: auto;
+    transition-duration: .5s;
+    text-align: justify;
+}
+
+.welcome-single-slide:hover .project_title {
+    bottom: 0;
+}
+
+.post-date-commnents .judul {
+    padding: 40px 0px;
+}
+
+.welcome-single-slide .post-date-commnents a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.welcome-single-slide .post-date-commnents a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.project_title .ui {
+    text-align: right;
+    color: white;
+    background-color: rgba(254,154,118,0.7);
+    border: 1px solid white;
+}
+
+
+
+
+

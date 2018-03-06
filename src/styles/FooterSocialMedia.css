@@ -1,0 +1,28 @@
+.col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.col-12 > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logososmedfooter {
+    margin: 0px 25px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 15px;
+    padding: 7px 10px;
+    color: black;
+    transition: .5s;
+}
+
+.logososmedfooter a:hover {
+    color: red;
+    transition: .1s;
+}
+
+.logososmedfooter i {
+    padding-right: 10px;
+}
